@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 14 Okt 2021 pada 10.12
+-- Waktu pembuatan: 14 Okt 2021 pada 11.01
 -- Versi server: 10.4.21-MariaDB
 -- Versi PHP: 8.0.10
 
@@ -32,18 +32,29 @@ CREATE TABLE `mahasiswa` (
   `nama` varchar(50) DEFAULT NULL,
   `jkel` varchar(1) DEFAULT NULL,
   `alamat` tinytext DEFAULT NULL,
-  `tgllhr` date DEFAULT NULL
+  `tgllhr` date DEFAULT NULL,
+  `no_hp` varchar(20) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
 -- Dumping data untuk tabel `mahasiswa`
 --
 
-INSERT INTO `mahasiswa` (`nim`, `nama`, `jkel`, `alamat`, `tgllhr`) VALUES
-('MHS01', 'Siti Aminah', 'P', 'SOLO', '1995-10-01'),
-('MHS02', 'Rita', 'P', 'SOLO', '1999-01-01'),
-('MHS03', 'Amirudin', 'L', 'SEMARANG', '1998-08-11'),
-('MHS04', 'Siti Maryam', 'P', 'JAKARTA', '1994-04-15');
+INSERT INTO `mahasiswa` (`nim`, `nama`, `jkel`, `alamat`, `tgllhr`, `no_hp`) VALUES
+('MHS01', 'Siti Aminah', 'P', 'SOLO', '1995-10-01', '082282618133'),
+('MHS02', 'Rita', 'P', 'SOLO', '1999-01-01', '082282618144'),
+('MHS03', 'Amirudin', 'L', 'SEMARANG', '1998-08-11', '082282618155'),
+('MHS04', 'Siti Maryam', 'P', 'JAKARTA', '1994-04-15', '082282618166');
+
+--
+-- Indexes for dumped tables
+--
+
+--
+-- Indeks untuk tabel `mahasiswa`
+--
+ALTER TABLE `mahasiswa`
+  ADD PRIMARY KEY (`nim`);
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
