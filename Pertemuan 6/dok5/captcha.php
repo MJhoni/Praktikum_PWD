@@ -1,7 +1,5 @@
 <?php
 
-    // https://github.com/MJhoni/Praktikum_PWD/tree/main/Pertemuan%206
-
     session_start();
     $random_alpha = md5(rand());
     $captcha_code = substr($random_alpha, 0, 6);
