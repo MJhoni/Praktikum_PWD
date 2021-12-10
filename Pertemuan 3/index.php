@@ -34,5 +34,8 @@ $result = mysqli_query($con,"SELECT * FROM mahasiswa");
         }
     ?>
     </table>
+    <button>
+        <a href="cetak.php">Cetak</a>
+    </button>
     </body>
 </html>
