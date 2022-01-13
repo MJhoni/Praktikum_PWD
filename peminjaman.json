@@ -1,0 +1,31 @@
+{
+    "data": [
+        {
+            "no_perkara": "01\/ABC.D\/2022\/Gh.IJK",
+            "peminjam": "Joseph",
+            "tgl_pinjam": "2021-12-17",
+            "tgl_kembali": "2021-12-20",
+            "lama_pinjam": "3",
+            "keterangan": "-",
+            "id": "5"
+        },
+        {
+            "no_perkara": "02\/LMN.O\/2022\/Pq.RST",
+            "peminjam": "Tatan",
+            "tgl_pinjam": "2021-12-17",
+            "tgl_kembali": "2021-12-27",
+            "lama_pinjam": "7",
+            "keterangan": "-",
+            "id": "6"
+        },
+        {
+            "no_perkara": "03\/UVW.X\/2022\/Yz.ABC",
+            "peminjam": "Yuyun",
+            "tgl_pinjam": "2021-12-19",
+            "tgl_kembali": "2021-12-30",
+            "lama_pinjam": "11",
+            "keterangan": "-",
+            "id": "7"
+        }
+    ]
+}
